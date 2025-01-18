@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100%;
+    background-color: #809faa;
+
+}
+
+.services{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 30px 30px;
+    background-color: #efefef;
+    border-radius: 10px;
+    cursor: pointer;
+    line-height: 20px;
+
+
+}
+
+.card:hover{
+    background-color: #b8d4de;
+    transition: 0.4s ease;
+
+}
+
+@media screen and (max-width: 940){
+    .services{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .card{
+        width: 85%;
+        display: flex;
+        margin: 20px 0px;
+    }
+}
+
+.card .icon{
+    font-size: 90px;
+    margin-bottom: 5px;
+   
+}
+
+.card .pla{
+    font-size: 28px;
+    color: #c94f4f;
+    margin-bottom: 20px;
+}
+.card .plaa{
+    font-size: 17px;
+    margin-bottom: 1.5;
+    color: #1e1c1c;
+}
+
+.button{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(228, 170, 61);
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+
+   margin-top: 20px;
+
+}
+
+.button:hover{
+    background-color: rgb(242, 36, 70);
+    transition: 0.4s ease;
+}
